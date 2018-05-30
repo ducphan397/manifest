@@ -16,10 +16,12 @@
   <!-- Device Trees -->
   <project path="device/samsung/fortunaxx-common" name="android_device_samsung_fortunaxx-common" remote="GPO" revision="xosp" />
   <project path="device/samsung/fortunave3g" name="android_device_samsung_fortunave3g" remote="GPO" revision="xosp" />
+  <project path="device/samsung/fortuna3g" name="android_device_samsung_fortuna3g" remote="GPO" revision="xosp" />
 
   <!-- Vendors -->
   <project path="vendor/samsung/fortunaxx-common" name="android_vendor_samsung_fortunaxx-common" remote="MSM8916" revision="cm-14.1" />
   <project path="vendor/samsung/fortunave3g" name="android_vendor_samsung_fortunave3g" remote="MSM8916" revision="cm-14.1" />
+  <project path="vendor/samsung/fortuna3g" name="android_vendor_samsung_fortuna3g" remote="MSM8916" revision="cm-14.1" />
   
   <!-- Kernel -->
   <project path="kernel/samsung/fortunaxx" name="android_kernel_samsung_msm8916" remote="MSM8916" revision="cm-14.1" />
