@@ -12,22 +12,22 @@
  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1"/>
 
  <!-- Grand Prime Fortuna Device Trees -->
- <project path="device/samsung/fortunave3g" name="Gumball1506/android_device_samsung_fortunave3g" remote="github" revision="xosp" />
- <project path="device/samsung/fortuna3g" name="Gumball1506/android_device_samsung_fortuna3g" remote="github" revision="xosp" />
- <project path="device/samsung/gprimelte-common" name="Gumball1506/android_device_samsung_gprimelte-common" remote="github" revision="cm14.1" />
+ <project path="device/samsung/fortunave3g" name="ducphan397/android_device_samsung_fortunave3g" remote="github" revision="xosp" />
+ <project path="device/samsung/fortuna3g" name="ducphan397/android_device_samsung_fortuna3g" remote="github" revision="xosp" />
+ <project path="device/samsung/gprimelte-common" name="ducphan397/android_device_samsung_gprimelte-common" remote="github" revision="cm-14.1" />
  <!-- Samsung MSM8916 Common Repos -->
- <project path="device/samsung/msm8916-common" name="Gumball1506/android_device_samsung_msm8916-common" remote="github" revision="cm14.1" />
- <project path="device/samsung/qcom-common" name="Gumball1506/android_device_samsung_qcom-common" remote="github" revision="cm14.1" />
+ <project path="device/samsung/msm8916-common" name="ducphan397/android_device_samsung_msm8916-common" remote="github" revision="cm-14.1" />
+ <project path="device/samsung/qcom-common" name="ducphan397/android_device_samsung_qcom-common" remote="github" revision="cm-14.1" />
  
  <!-- arm-eabi-7.2 -->
  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.2" name="Galaxy-MSM8916/android-prebuilts-gcc-linux-x86-arm-arm-eabi-7.2" remote="github" revision="master"/>
 
  <!-- Dependencies -->
  <!-- <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-8.1"/> -->
- <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm14.1"/>
+ <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1"/>
   
  <!-- Samsung Hardware Repo -->
- <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-15.1" />
+ <project path="hardware/samsung" name="LineageOS/android_hardware_samsung"/>
 
  <!-- Common Samsung MSM8916 Kernel -->
  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="Galaxy-MSM8916"/>
