@@ -2,7 +2,7 @@
 <manifest>
 
   <remote name="GPO"
-           fetch="https://github.com" />
+           fetch="https://github.com/ducphan397" />
   
   <remote name="LinOS"
            fetch="https://github.com/LineageOS" />
@@ -14,9 +14,9 @@
            fetch="https://github.com/Samsung-MSM8916" />
   
   <!-- Device Trees -->
-  <project path="device/samsung/fortunaxx-common" name="ducphan397/android_device_samsung_fortunaxx-common" remote="GPO" revision="xosp-n" />
-  <project path="device/samsung/fortunave3g" name="ducphan397/android_device_samsung_fortunave3g-1" remote="GPO" revision="xosp-n" />
-  <project path="device/samsung/fortuna3g" name="ducphan397/android_device_samsung_fortuna3g-1" remote="GPO" revision="xosp-n" />
+  <project path="device/samsung/fortunaxx-common" name="android_device_samsung_fortunaxx-common" remote="GPO" revision="xosp-n" />
+  <project path="device/samsung/fortunave3g" name="android_device_samsung_fortunave3g-1" remote="GPO" revision="xosp-n" />
+  <project path="device/samsung/fortuna3g" name="android_device_samsung_fortuna3g-1" remote="GPO" revision="xosp-n" />
 
   <!-- Vendors -->
   <project path="vendor/samsung/fortunaxx-common" name="android_vendor_samsung_fortunaxx-common" remote="MSM8916" revision="cm-14.1" />
